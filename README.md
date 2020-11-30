@@ -39,7 +39,7 @@ Same as preprocess.ipynb<br />
 The code can be divided into 5 parts: <br />
 - Preprocessing:<br />
   - Same as in preprocess.ipynb <br />
--KNN classifier:<br />
+- KNN classifier:<br />
   - Splits the dataset into test and train <br />
   - Uses the diagnosis column as target <br />
   - Plots training and testing scores for different values of K to find optimum K <br />
