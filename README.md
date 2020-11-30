@@ -2,7 +2,7 @@
 **Dataset:** OSMI Mental health in tech survey-2016<br />
 **Preprocess.ipynb:**<br />
 Ensure that the following packages are installed and working:<br /> 
--pandas<br />
+- pandas<br />
 -numpy<br />
 -seaborn<br />
 -matplotlib<br />
