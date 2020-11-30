@@ -3,18 +3,18 @@
 **Preprocess.ipynb:**<br />
 Ensure that the following packages are installed and working:<br /> 
 - pandas<br />
--numpy<br />
--seaborn<br />
--matplotlib<br />
--Sklearn<br />
--Warnings<br />
--plotly<br />
+- numpy<br />
+- seaborn<br />
+- matplotlib<br />
+- Sklearn<br />
+- Warnings<br />
+- plotly<br />
 The code can be divided into 3 segments:<br />
--Data cleaning and preprocessing<br />
- -All column names are shortened and renamed to more accessible ones<br />
- -All columns having>50% NA are dropped<br />
- -Columns are encoded <br />
- -NA values are filled<br />
+- Data cleaning and preprocessing<br />
+ - All column names are shortened and renamed to more accessible ones<br />
+ - All columns having>50% NA are dropped<br />
+ - Columns are encoded <br />
+ - NA values are filled<br />
 -Visualization<br />
  -Plot showing number of people who open about about illness in developed countries, different regions<br />
  -Proportions of gender based by region<br />
