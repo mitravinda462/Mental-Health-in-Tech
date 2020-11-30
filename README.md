@@ -30,13 +30,14 @@ The code can be divided into 3 segments:<br />
   - Correlation and chi-square test between Mental health coverage provided by the company and the employee's comfort of discussing about their mental health with the supervisors<br />
   - Correlation and chi-square test between awareness of coverage and comfort in discussing with supervisor<br />
   - Correlation and chi-square test between help provided by previous employers and whether mental health was taken seriously<br />
+
+**Mental_health_code.ipynb:**
 <br />
-**Mental_health_code.ipynb:**<br />
 Packages required:<br />
 Same as preprocess.ipynb<br /> 
 
 The code can be divided into 5 parts: <br />
--Preprocessing:<br />
+- Preprocessing:<br />
   - Same as in preprocess.ipynb <br />
 -KNN classifier:<br />
  - Splits the dataset into test and train <br />
