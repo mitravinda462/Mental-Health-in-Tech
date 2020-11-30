@@ -40,11 +40,11 @@ The code can be divided into 5 parts: <br />
 - Preprocessing:<br />
   - Same as in preprocess.ipynb <br />
 -KNN classifier:<br />
- - Splits the dataset into test and train <br />
- - Uses the diagnosis column as target <br />
- - Plots training and testing scores for different values of K to find optimum K <br />
- - Builds a classifier which predicts whether a person is likely be diagnosed as having a mental health issue or not<br />
- - Accuracy calculation<br />
+  - Splits the dataset into test and train <br />
+  - Uses the diagnosis column as target <br />
+  - Plots training and testing scores for different values of K to find optimum K <br />
+  - Builds a classifier which predicts whether a person is likely be diagnosed as having a mental health issue or not<br />
+  - Accuracy calculation<br />
 - KMeans clustering:<br />
  - Performs K-means clustering on dataset to find optimum number of clusters using Elbow method and calinski harabasz score<br />
  - Perform clustering and check goodness using silhouette score and visualizer<br />
