@@ -46,17 +46,17 @@ The code can be divided into 5 parts: <br />
   - Builds a classifier which predicts whether a person is likely be diagnosed as having a mental health issue or not<br />
   - Accuracy calculation<br />
 - KMeans clustering:<br />
- - Performs K-means clustering on dataset to find optimum number of clusters using Elbow method and calinski harabasz score<br />
- - Perform clustering and check goodness using silhouette score and visualizer<br />
- - Plot the clustering for optimum k<br />
+  - Performs K-means clustering on dataset to find optimum number of clusters using Elbow method and calinski harabasz score<br />
+  - Perform clustering and check goodness using silhouette score and visualizer<br />
+  - Plot the clustering for optimum k<br />
 - Risk Classification<br />
- - Use columns columns on diagnosis and current mental health for each point in the different clusters to classify clusters as high, low and medium risk<br />
+  - Use columns columns on diagnosis and current mental health for each point in the different clusters to classify clusters as high, low and medium risk<br />
 - Inferences<br />
- - Instances of Family history for people at different levels of risk<br />
- - Distribution of positive diagnoses among the three classes<br />
- - Levels of risk for people who don’t open up about their illness<br />
- - Risk levels for remote and non-remote workers<br />
- - Impact of negative reaction in workplace<br />
+  - Instances of Family history for people at different levels of risk<br />
+  - Distribution of positive diagnoses among the three classes<br />
+  - Levels of risk for people who don’t open up about their illness<br />
+  - Risk levels for remote and non-remote workers<br />
+  - Impact of negative reaction in workplace<br />
 
 
 
