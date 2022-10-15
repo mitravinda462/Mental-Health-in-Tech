@@ -80,10 +80,29 @@ The following clustering models were implemented:
 1. K means clustering
 2. K means++
 3. Partition around Medoids clustering
-4. Spectral clustering
-5. Agglomerative Hierarchical clustering
-6. Gaussian mixture models
+4. Agglomerative Hierarchical clustering
+5. Gaussian mixture models
+6. Spectral clustering
 7. BIRCH clustering
+
+Inferences
+1. Family history of mental illness
+2. Impact of past history of mental health disorder
+3. Impact of age
+4. Impact of gender
+5. Impact of workplace social support
+6. Pre nd post covid analysis:
+  -Formal discussions on mental health by employers
+  - Formal discussions on mental health by employers
+  - Unsupportiveness towards mental health issues in workplace
+  - Employees’ openness to discuss mental health issues in work-
+place
+- Requesting a mental health leave of absence
+- Importance placed by employers on physical and mental health
+-Supportiveness towards mental health issues in workplace
+-Tech industry’s support for employees with mental health issues
+
+
 
 
 
