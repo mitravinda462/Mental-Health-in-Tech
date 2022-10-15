@@ -91,7 +91,7 @@ Inferences
 3. Impact of age
 4. Impact of gender
 5. Impact of workplace social support
-6. Pre nd post covid analysis:
+6. Pre and post covid analysis:
   -Formal discussions on mental health by employers
   - Formal discussions on mental health by employers
   - Unsupportiveness towards mental health issues in workplace
