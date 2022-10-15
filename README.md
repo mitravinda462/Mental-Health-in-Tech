@@ -1,5 +1,5 @@
 # Mental-Health-in-Tech
-**Dataset:** OSMI Mental health in tech survey-2016<br />
+**Dataset:** OSMI Mental health in tech survey-2016, OSMI Mental health in tech survey-2017, OSMI Mental health in tech survey-2018, OSMI Mental health in tech survey-2019, OSMI Mental health in tech survey-2020, OSMI Mental health in tech survey-2021<br />
 **Preprocess.ipynb:**<br />
 Ensure that the following packages are installed and working:<br /> 
 - pandas<br />
@@ -57,6 +57,34 @@ The code can be divided into 5 parts: <br />
   - Levels of risk for people who don’t open up about their illness<br />
   - Risk levels for remote and non-remote workers<br />
   - Impact of negative reaction in workplace<br />
+
+
+**prediction_model_mental_health.ipynb:**
+<br>
+The following classifiers were implemented:<br/>
+1. K neighbors classifier<br/>
+2. Logistic regression<br/>
+3. Decision tree classifier<br/>
+4. Random forest classifier<br/>
+5. Ada boost classifier<br/>
+6. XGB Classifier<br/>
+7. Gradient boosting classifier<br/>
+
+The following validations were performed:
+1. K fold cross validation
+2. Silhouette score
+3. Calinski Harabasz score
+4. Sum of squared errors
+
+The following clustering models were implemented:
+1. K means clustering
+2. K means++
+3. Partition around Medoids clustering
+4. Spectral clustering
+5. Agglomerative Hierarchical clustering
+6. Gaussian mixture models
+7. BIRCH clustering
+
 
 
 
