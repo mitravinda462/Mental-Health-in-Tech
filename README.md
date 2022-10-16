@@ -11,6 +11,7 @@ affecting the risk were studied. Researches specific to different parts of the w
 <br />
 
 **Dataset:** 
+
 OSMI Mental health in tech survey-2016 (https://www.kaggle.com/datasets/osmi/mental-health-in-tech-2016)<br>
 OSMI Mental health in tech survey-2017(https://www.kaggle.com/datasets/osmihelp/osmi-mental-health-in-tech-survey-2017)<br>
 OSMI Mental health in tech survey-2018(https://www.kaggle.com/datasets/osmihelp/osmi-mental-health-in-tech-survey-2018)<br>
@@ -20,18 +21,18 @@ OSMI Mental health in tech survey-2021 (https://www.kaggle.com/datasets/osmihelp
 <br />
 
 **System design**
-<br>
 
 The first step in the system design is pre-processing the OSMI Mental Health in Tech Survey 2016 data set. The data pre-processing was commenced by cleaning the data and renaming the column names. It was then followed by handling the inconsistent categorical values and encoding the categorical and ordinal variables. Exploratory Data Analysis (EDA) was conducted to understand the data set and extract
 insights from it. Based on the knowledge learned from EDA, feature selection was performed to identify and select the features that are relevant and appropriate to build the intended models. The prediction model was built to predict the employees’ possibility of being diagnosed with a mental health issue. The risk indicator model was then built to identify and understand the risk factors influencing the employees’ mental health. The results obtained were evaluated and analysed along with obtaining appropriate inferences. Finally, the datasets of OSMI Mental Health in Tech Survey 2017, 2018, 2019, 2020 and 2021 were studied to understand and infer the trends in the mental health scenariopre- and post-COVID-19.
 <br />
 
 **Preprocessing**
-<br>
+
  As the first step, the data set was cleaned. Columns with over 50% missing values were dropped. The rest of the missing values were imputed with appropriate values based on their columns. This was followed by renaming all the columns in order to make them easily referenceable. Post data cleaning, the data present in the data set belonged to one among the following types- numerical, categorical, ordinal or nominal. The categorical columns had multiple instances belonging to the same category but with inconsistent category-names. These were handled by imputing the instances belonging to the same category with the same category-name. Similarly, outliers present in the numerical columns were handled by replacing them with their column average. Finally, all the categorical and ordinal data
 were encoded.
 <br />
 
+**Classifiers**
 
 The following classifiers were implemented:<br/>
 1. K neighbors classifier<br/>
@@ -42,6 +43,8 @@ The following classifiers were implemented:<br/>
 6. XGB Classifier<br/>
 7. Gradient boosting classifier<br/>
 
+**Clustering models**
+
 The following clustering models were implemented:
 1. K means clustering
 2. K means++
@@ -50,6 +53,8 @@ The following clustering models were implemented:
 5. Gaussian mixture models
 6. Spectral clustering
 7. BIRCH clustering
+
+**Inferences**
 
 Inferences were drawn on the following categories:
 1. Family history of mental illness
@@ -68,6 +73,7 @@ place
 -Supportiveness towards mental health issues in workplace
 -Tech industry’s support for employees with mental health issues
 
+**Evaluation methods**
 
 The following validations were performed:
 1. K fold cross validation
