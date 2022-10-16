@@ -1,8 +1,8 @@
 # Mental-Health-in-Tech
-<br>
-<br />
+
+
 **Introduction**
-<br>
+
 In 2016, according to Open Sourcing Mental Illness (OSMI) organization’s survey, 51% of tech professionals had been diagnosed with a mental health condition. While the factors that impact a person’s mental wellness differ from individual to individual, there are various risk factors for mental health of employees that may be present in their work environment. Major risk factors can be identified as minimal support for employees, insufficient health and safety policies, inflexible working hours, poor communication, poor management etc. Thus, it is important for employers or organizations to work towards reducing the work-related stress factors along with promoting and
 supporting mental health in workplace.
 
@@ -22,7 +22,6 @@ OSMI Mental health in tech survey-2021 (https://www.kaggle.com/datasets/osmihelp
 **System design**
 <br>
 
-<
 The first step in the system design is pre-processing the OSMI Mental Health in Tech Survey 2016 data set. The data pre-processing was commenced by cleaning the data and renaming the column names. It was then followed by handling the inconsistent categorical values and encoding the categorical and ordinal variables. Exploratory Data Analysis (EDA) was conducted to understand the data set and extract
 insights from it. Based on the knowledge learned from EDA, feature selection was performed to identify and select the features that are relevant and appropriate to build the intended models. The prediction model was built to predict the employees’ possibility of being diagnosed with a mental health issue. The risk indicator model was then built to identify and understand the risk factors influencing the employees’ mental health. The results obtained were evaluated and analysed along with obtaining appropriate inferences. Finally, the datasets of OSMI Mental Health in Tech Survey 2017, 2018, 2019, 2020 and 2021 were studied to understand and infer the trends in the mental health scenariopre- and post-COVID-19.
 <br />
