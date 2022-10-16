@@ -21,10 +21,11 @@ OSMI Mental health in tech survey-2021 (https://www.kaggle.com/datasets/osmihelp
 <br />
 
 **System design**
-
+![system-design-mitra](https://user-images.githubusercontent.com/53876415/196026414-b48a2a8a-16ce-44ff-9d2f-97d568ab0b95.PNG)
 The first step in the system design is pre-processing the OSMI Mental Health in Tech Survey 2016 data set. The data pre-processing was commenced by cleaning the data and renaming the column names. It was then followed by handling the inconsistent categorical values and encoding the categorical and ordinal variables. Exploratory Data Analysis (EDA) was conducted to understand the data set and extract
 insights from it. Based on the knowledge learned from EDA, feature selection was performed to identify and select the features that are relevant and appropriate to build the intended models. The prediction model was built to predict the employees’ possibility of being diagnosed with a mental health issue. The risk indicator model was then built to identify and understand the risk factors influencing the employees’ mental health. The results obtained were evaluated and analysed along with obtaining appropriate inferences. Finally, the datasets of OSMI Mental Health in Tech Survey 2017, 2018, 2019, 2020 and 2021 were studied to understand and infer the trends in the mental health scenariopre- and post-COVID-19.
 <br />
+
 
 **Preprocessing**
 
@@ -32,8 +33,10 @@ insights from it. Based on the knowledge learned from EDA, feature selection was
 were encoded.
 <br />
 
-**Classifiers**
+**Predicting mental health diagnosis**
 
+In order to predict the employees' possibility of being diagnosed with a mental health issue, different prediction models were implemented. The predictions were obtained by classifying the employees into 2 classes namely: ‘diagnosed for mental health issue by a medical professional’ and ‘not diagnosed for mental health issue by a medical professional’. The classification was done based on the target variable, ‘Have you been diagnosed with a mental health condition by a medical professional?’. 70\% of the data set was used for training and 30\% for testing. 
+Multiple prediction models were implemented to obtain the model providing high accuracy predictions.
 The following classifiers were implemented:<br/>
 1. K neighbors classifier<br/>
 2. Logistic regression<br/>
@@ -43,8 +46,11 @@ The following classifiers were implemented:<br/>
 6. XGB Classifier<br/>
 7. Gradient boosting classifier<br/>
 
-**Clustering models**
+K-fold cross validation was performed on all the above models to evaluate their performance
 
+**Risk Indicator**
+
+In order to understand and study the employees' risk of progressing to a mental health issue, a risk indicator was built. The risk indicator was modelled using various clustering techniques where the employees were fractionated into 3 clusters representing different levels of risk of the employees.
 The following clustering models were implemented:
 1. K means clustering
 2. K means++
@@ -53,6 +59,11 @@ The following clustering models were implemented:
 5. Gaussian mixture models
 6. Spectral clustering
 7. BIRCH clustering
+
+The following metrics were used to evaluate the performace of the above clustering models:
+1. Silhouette score
+2. Calinski Harabasz score
+3. Sum of squared errors
 
 **Inferences**
 
@@ -73,13 +84,7 @@ Inferences were drawn on the following categories:
    - Supportiveness towards mental health issues in workplace
    - Tech industry’s support for employees with mental health issues
 
-**Evaluation methods**
 
-The following validations were performed:
-1. K fold cross validation
-2. Silhouette score
-3. Calinski Harabasz score
-4. Sum of squared errors
 
 
 
