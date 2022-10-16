@@ -63,15 +63,15 @@ Inferences were drawn on the following categories:
 4. Impact of gender
 5. Impact of workplace social support
 6. Pre and post covid analysis:
-  - Formal discussions on mental health by employers
-  - Formal discussions on mental health by employers
-  - Unsupportiveness towards mental health issues in workplace
-  - Employees’ openness to discuss mental health issues in work-
-  place
-  - Requesting a mental health leave of absence
-  - Importance placed by employers on physical and mental health
-  - Supportiveness towards mental health issues in workplace
-  - Tech industry’s support for employees with mental health issues
+   - Formal discussions on mental health by employers
+   - Formal discussions on mental health by employers
+   - Unsupportiveness towards mental health issues in workplace
+   - Employees’ openness to discuss mental health issues in work-
+   place
+   - Requesting a mental health leave of absence
+   - Importance placed by employers on physical and mental health
+   - Supportiveness towards mental health issues in workplace
+   - Tech industry’s support for employees with mental health issues
 
 **Evaluation methods**
 
