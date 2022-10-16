@@ -2,12 +2,13 @@
 <br>
 <br />
 **Introduction**
+<br>
 In 2016, according to Open Sourcing Mental Illness (OSMI) organization’s survey, 51% of tech professionals had been diagnosed with a mental health condition. While the factors that impact a person’s mental wellness differ from individual to individual, there are various risk factors for mental health of employees that may be present in their work environment. Major risk factors can be identified as minimal support for employees, insufficient health and safety policies, inflexible working hours, poor communication, poor management etc. Thus, it is important for employers or organizations to work towards reducing the work-related stress factors along with promoting and
 supporting mental health in workplace.
 
 This study aims to predict employees’ disposition of progressing to a mental health issue, but also to identify and understand the factors influencing employees’ mental health in their workplaces. Various classification models were implemented to predict whether or not an employee could be diagnosed with a mental health issue. Similarly, a risk indicator was modeled using various clustering techniques. The employees were fractionated into 3 clusters representing different levels of risk of the employees progressing to a mental health issue. Further, the characteristics of the risk clusters and factors
 affecting the risk were studied. Researches specific to different parts of the world have reported an increase in the mental health symptoms and a deterioration in mental health after the onset of COVID-19. COVID-19 has caused tremendous human and humanitarian challenges in workplace causing major changes in the work culture. The pandemic having seeded quarantine, lockdown, loss of physical contact with friends and co-workers, uncertain employment, work from home and more has brought in various risk factors that pose concerns for employees’ mental wellness. Thus, the study is tied together with the current mental health scenario through a multi-year analysis on the trends in mental health in workplace before and after the onset of COVID-19.
-<br>
+<br />
 
 **Dataset:** 
 OSMI Mental health in tech survey-2016 (https://www.kaggle.com/datasets/osmi/mental-health-in-tech-2016)<br>
