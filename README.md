@@ -1,5 +1,6 @@
 # Mental-Health-in-Tech
 <br>
+<br />
 **Introduction**
 In 2016, according to Open Sourcing Mental Illness (OSMI) organization’s survey, 51% of tech professionals had been diagnosed with a mental health condition. While the factors that impact a person’s mental wellness differ from individual to individual, there are various risk factors for mental health of employees that may be present in their work environment. Major risk factors can be identified as minimal support for employees, insufficient health and safety policies, inflexible working hours, poor communication, poor management etc. Thus, it is important for employers or organizations to work towards reducing the work-related stress factors along with promoting and
 supporting mental health in workplace.
