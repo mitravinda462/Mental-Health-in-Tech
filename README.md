@@ -63,6 +63,7 @@ Inferences were drawn on the following categories:
 4. Impact of gender
 5. Impact of workplace social support
 6. Pre and post covid analysis:
+
   -Formal discussions on mental health by employers
   - Formal discussions on mental health by employers
   - Unsupportiveness towards mental health issues in workplace
